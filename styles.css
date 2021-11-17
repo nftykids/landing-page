@@ -24,6 +24,10 @@ img {
     padding: 0;
 }
 
+a {
+    color: white;
+}
+
 @media screen and (max-width: 678px) {
     h1 {
         font-size: 15vw;
