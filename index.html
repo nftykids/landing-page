@@ -16,14 +16,19 @@
     <link rel="stylesheet" href="styles.css" type="text/css" media="screen" crossorigin="anonymous">
 </head>
 
-<body style="text-align: center; padding: 4rem;">
+<body>
     <style>
+        body {
+            text-align: center;
+            padding: 1rem;
+        }
+
         img {
             margin: 0;
         }
 
         p {
-            font-size: 1.2rem;
+            font-size: 1rem;
         }
 
         .footer {
@@ -38,6 +43,15 @@
         }
 
         @media screen and (min-height: 810px) {
+            body {
+
+                padding: 4rem;
+            }
+
+            p {
+                font-size: 1.2rem;
+            }
+
             .footer {
                 position: absolute;
                 bottom: 15px;
